@@ -40,20 +40,50 @@ header{
     height: auto;
 }
  
-.btn-menu{
-    background-color: #7e7e7e; /*cor do fundo */
-    color: #ffffff; /*cor da letra*/
-    width: 120px; /*largura*/
-    height: 35px;
-    font-size: 18px; /*tamanho da fonte */
-    font-weight: bold; /* negrito ou espessura da fonte*/
-    border: none; /*borda */
-    border-radius: 12px; /*borda arredondada */
-    cursor: pointer; /*adiciona o cursor*/
-    box-shadow: 2px 2px 2px #817e7e; /*sombra*/
-    margin-right: 5vh;
+.iconesBarra{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.iconesBarra img{
+    width: 20px;
+    height: 20px;
+}
+.loginCarrinho img{
+    width: 60px;
+    height: 60px;
+}
+.barraLupa{
+    width: 90%;
+    background-color: #f0f0f0;
+    height: 30px;
+    display: flex;
+    padding: 10px 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 27px;
 }
  
+.barraLupa img{
+    width: 30px;
+    height: 30px;
+}
+ 
+.loginCarrinho {
+    width: 20%;
+    text-align: center;
+}
+.barraLupa input{
+    padding: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    background: transparent;
+    width: 80%;
+    border: none;
+}
+  
+
 .topo{
     width: 75vw;
     height: 150px;
@@ -91,10 +121,9 @@ header{
     color: #ffffff;
     transform: scale(1.2);
 }
-.btn-menu:hover{
-    transform: scale(0.9);
-}
- 
+
+  
+
 .carrossel{
     width: 80vw;
     margin-left: auto;
@@ -228,81 +257,28 @@ footer{
 }
 .selecionar{
     background-color: #7e7e7e;
-    width: 13vw;
-    padding: 10px;
+    width: 200px;
+    height: 250px;
+    padding: 1vw;
     border-style: solid;
     border-radius: 20px;
     border-color: #7e7e7e;
     text-align: center;
-    margin-left: 2%;
-    margin-top: 1%;
+    margin-bottom: 20px;
 }
- 
-.selecionar2{
-    background-color: #7e7e7e;
-    width: 13vw;
-    padding: 20px;
-    border-style: solid;
-    border-radius: 20px;
-    border-color: #7e7e7e;
-    text-align: center;
-    margin-left: 2%;
-    margin-top: 1%;
+.selecionar img{
+    padding: 5px;
+    margin-top: 5px;
+    width: 150px;
+    height: auto;
 }
- 
-.selecionar3{
-    background-color: #7e7e7e;
-    width: 13vw;
-    padding: 10px;
-    border-style: solid;
-    border-radius: 20px;
-    border-color: #7e7e7e;
-    text-align: center;
-    margin-left: 2%;
-    margin-top: 1%;
-}
- 
-.selecionar4{
-    background-color: #7e7e7e;
-    width: 13vw;
-    padding: 10px;
-    border-style: solid;
-    border-radius: 20px;
-    border-color: #7e7e7e;
-    text-align: center;
-    margin-left: 2%;
-    margin-top: 1%;
-}
- 
-.selecionar5{
-    background-color: #7e7e7e;
-    width: 13vw;
-    padding: 10px;
-    border-style: solid;
-    border-radius: 20px;
-    border-color: #7e7e7e;
-    text-align: center;
-    margin-left: 2%;
-    margin-top: 1%;
-}
- 
-.selecionar6{
-    background-color: #7e7e7e;
-    width: 13vw;
-    padding: 20px;
-    border-style: solid;
-    border-radius: 20px;
-    border-color: #7e7e7e;
-    text-align: center;
-    margin-left: 2%;
-    margin-top: 1%;
-}
- 
 .flex{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 2%;
+    width: 100%;
 }
  
 .marcas{

@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optiplex Sports</title>
+    <link rel="shortcut icon" href="./src/imagens/Optiplex Sports.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/masculino.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="pagina">
+        <div class="principal corpo">
+            <header>
+                <div class="logo">
+                    <img src="./src/imagens/Optiplex Sports.png" alt="logotipo Optiplex">
+                </div>
+                <div class="topo">
+                    <div class="iconesBarra">
+                        <div class="barraLupa">
+                            <img src="./src/imagens/lupa.png" alt="">
+                            <input type="" placeholder="Procure por um produto ou esporte">
+                        </div>
+                        <div class="loginCarrinho">
+                            <a href="./login.html"><img src="./src/imagens/pessoa-icone.png" alt="imagem login"></a>
+                            <a href="./favoritos.html"><img src="./src/imagens/icone-coração.png" alt="imagem favorito"></a>
+                            <a href="./carrinho.html"><img src="./src/imagens/carrinho-icone.png" alt=" imagem carrinho"></a>
+                        </div>
+                    </div>
+                    <div class="menu" id="menu">
+                        <nav>
+                            <ul>
+                                <a href="./index.html"><li>Home</li></a>
+                                <a href="./masculino.html"><li>Masculino</li></a>
+                                <a href=""><li>Feminino</li></a>
+                                <a href=""><li>Infantil</li></a>
+                                <a href=""><li>Acessorios</li></a>
+                                <a href=""><li>Equipamentos</li></a>
+                                <a href=""><li>Calçados</li></a>
+                                <a href=""><li>Roupas</li></a>
+                                <a href=""><li>Marcas</li></a>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <div class="filtrosEcorpo">
+                <div class="filtro">
+                    <div class="tamanho" id="tamanho">
+                        <h1>Tamanho</h1>
+                        <div class="caixasTamanhos">
+                            <div class="caixaTamanho">
+                                <a>PP</a>
+                            </div>
+                            <div class="caixaTamanho">
+                                <a>P</a>
+                            </div>
+                            <div class="caixaTamanho">
+                                <a>M</a>
+                            </div>
+                            <div class="caixaTamanho">
+                                <a>G</a>
+                            </div>
+                            <div class="caixaTamanho">
+                                <a>GG</a>
+                            </div>
+                            <div class="caixaTamanho">
+                                <a>XG</a>
+                            </div>
+                            <div class="caixaTamanho">
+                                <a>XXG</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="genero" id="genero">
+                        <h1>Masculino</h1>
+                        <div class="barraFiltro">
+                            <img src="./src/imagens/lupa.png" alt="">
+                            <input type="" placeholder="Faça sua busca">
+                        </div>
+                        <div class="caixasGeneros">
+                            <div class="caixaGenero">
+                                <a>Camisetas</a>
+                            </div>
+                            <div class="caixaGenero">
+                                <a>Acessorios</a>
+                            </div>
+                            <div class="caixaGenero">
+                                <a>Shorts</a>
+                            </div>
+                            <div class="caixaGenero">
+                                <a>Jaquetas e Moletons</a>
+                            </div>
+                            <div class="caixaGenero">
+                                <a>Regatas</a>
+                            </div>
+                            <div class="caixaGenero">
+                                <a>Calçados</a>
+                            </div>
+                            <div class="caixaGenero">
+                                <a>Bones e Chapeus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="preco" id="preco">
+                        <h1>Preço</h1>
+                        <div class="caixaPreco">
+                            <input type="checkbox" id="" name="" value="">
+                                <label for=""> Até R$ 100</label><br>
+                            <input type="checkbox" id="" name="" value="">
+                                <label for="vehicle2">R$ 100 até R$ 200</label><br>
+                            <input type="checkbox" id="" name="" value="">
+                                <label for="">R$ 200 até R$ 300</label><br>
+                            <input type="checkbox" id="" name="" value="">
+                                <label for="">R$ 300 até R$ 400</label><br>
+                            <input type="checkbox" id="" name="" value="">
+                                <label for="">R$ 400 até R$ 500</label><br>
+                            <input type="checkbox" id="" name="" value="">
+                                <label for="">Acima de R$ 500</label><br>
+                        </div>
+                    </div>
+                    <div class="marca" id="marca">
+                        <h1>Marca</h1>
+                        <div class="barraFiltro">
+                            <img src="./src/imagens/lupa.png" alt="">
+                            <input type="" placeholder="Faça sua busca">
+                        </div>
+                        <div class="caixaMarcas">
+                            <input type="checkbox" id="" name="" value="">
+                                <label for="">Adidas</label><br>
+                            <input type="checkbox" id="" name="" value="">
+                                <label for="vehicle2">Nike</label><br>
+                            <input type="checkbox" id="" name="" value="">
+                                <label for="">Olympikus</label><br>
+                            <input type="checkbox" id="" name="" value="">
+                                <label for="">Puma</label><br>
+                            <input type="checkbox" id="" name="" value="">
+                                <label for="">Asics</label><br>
+                            <input type="checkbox" id="" name="" value="">
+                                <label for="">New Balance</label><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagProds">
+                    <div class="pagProd">
+                        <div class="produtos">
+                            <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                            </div>
+                            <div class="imgProduto"><img src="./src/imagens/Palmeiras.png" alt="Camisa Palmeiras"></div>
+                            <div class="descricao">
+                                <h2>Puma</h2>
+                                <h3>Camisa Palmeiras jogador THIRD 2024</h3>
+                                <h3>Futebol</h3>
+                            </div>
+                            <div class="precoestre">
+                                <b>R$ 499,00</b>
+                                <div class="nota">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star "></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="produtos">
+                            <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                            </div>
+                            <div class="imgProduto"><img src="./src/imagens/Corinthians-memphis-home-94.png"
+                                    alt="Camisa Corinthians"></div>
+                            <div class="descricao">
+                                <h2>Nike</h2>
+                                <h3>Camisa Nike Corinthians 2024/25</h3>
+                                <h3>Futebol</h3>
+                            </div>
+                            <div class="precoestre">
+                                <b>R$ 1.049,99</b>
+                                <div class="nota">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star "></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="produtos">
+                            <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                            </div>
+                            <div class="imgProduto"><img src="./src/imagens/NIKEcamisa.png" alt="Camisa segunda pele"></div>
+                            <div class="descricao">
+                                <h2>Nike</h2>
+                                <h3>Camisa de compressão Pro Tight</h3>
+                                <h3>Musculação e Fitness</h3>
+                            </div>
+                            <div class="precoestre">
+                                <b>R$ 149,90</b>
+                                <div class="nota">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star "></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="produtos">
+                            <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                            </div>
+                            <div class="imgProduto"><img src="./src/imagens/Tenis Olympkus.png" alt="Tenis Olympikus"></div>
+                            <div class="descricao">
+                                <h2>Olympikus</h2>
+                                <h3>Tênis Olympikus Asfalto - Adulto</h3>
+                                <h3>Corrida</h3>
+                            </div>
+                            <div class="precoestre">
+                                <b>R$ 199,90</b>
+                                <div class="nota">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star "></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagProd">
+                        <div class="produtos">
+                            <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                            </div>
+                            <div class="imgProduto"><img src="./src/imagens/Chinelo Nike.png" alt="Chinelo"></div>
+                            <div class="descricao">
+                                <h2>Adidas</h2>
+                                <h3>Chinelo adidas Adilette Aqua-Slide</h3>
+                                <h3>Unissex</h3>
+                            </div>
+                            <div class="precoestre">
+                                <b>R$ 179,99</b>
+                                <div class="nota">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star "></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="produtos">
+                            <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                            </div>
+                            <div class="imgProduto"><img src="./src/imagens/Chuteira-Umbro.png" alt="CHuteira Umbro"></div>
+                            <div class="descricao">
+                                <h2>Umbro</h2>
+                                <h3>Chuteira Society Umbro Class 2.2</h3>
+                                <h3>Júnior</h3>
+                            </div>
+                            <div class="precoestre">
+                                <b>R$ 179,99</b>
+                                <div class="nota">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star "></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="produtos">
+                            <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                            </div>
+                            <div class="imgProduto"><img src="./src/imagens/Tenis NB.png" alt="Tenis New Balance"></div>
+                            <div class="descricao">
+                                <h2>New Balance</h2>
+                                <h3>Tênis New Balance 327 Warped</h3>
+                                <h3>Unissex</h3>
+                            </div>
+                            <div class="precoestre">
+                                <b>R$ 529,99</b>
+                                <div class="nota">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star "></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="produtos">
+                            <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                            </div>
+                            <div class="imgProduto"><img src="./src/imagens/Conjunto Adidas.png" alt="COnjunto adidas">
+                            </div>
+                            <div class="descricao">
+                                <h2>Adidas</h2>
+                                <h3>Conjunto de Agasalho Masculino Sereno</h3>
+                                <h3>Musculação e Fitness</h3>
+                            </div>
+                            <div class="precoestre">
+                                <b>R$ 351,49</b>
+                                <div class="nota">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star "></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagProd">
+                        <div class="produtos">
+                            <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                            </div>
+                            <div class="imgProduto"><img src="./src/imagens/Tenis Nke CAsu.png" alt="Tenis Nike"></div>
+                            <div class="descricao">
+                                <h2>Nike</h2>
+                                <h3>Ténis Nike Court Vision Lo Masculino</h3>
+                                <h3>Casual</h3>
+                            </div>
+                            <div class="precoestre">
+                                <b>R$ 419,99</b>
+                                <div class="nota">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star "></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="produtos">
+                            <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                            </div>
+                            <div class="imgProduto"><img src="./src/imagens/Meia.png" alt="Meias"></div>
+                            <div class="descricao">
+                                <h2>Puma</h2>
+                                <h3>Kit de Meias Sapatilha Esportiva</h3>
+                                <h3>Musculação e Fitness</h3>
+                            </div>
+                            <div class="precoestre">
+                                <b>R$ 28,49</b>
+                                <div class="nota">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star "></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="produtos">
+                            <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                            </div>
+                            <div class="imgProduto"><img src="./src/imagens/Camisa Flamengo.png" alt="Camisa Flamengo">
+                            </div>
+                            <div class="descricao">
+                                <h2>Adidas</h2>
+                                <h3>Camisa Masculina Flamengo Manto</h3>
+                                <h3>Futebol</h3>
+                            </div>
+                            <div class="precoestre">
+                                <b>R$ 314,99,00</b>
+                                <div class="nota">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star "></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="produtos">
+                            <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                            </div>
+                            <div class="imgProduto"><img src="./src/imagens/Camisa City.png" alt="Camisa City"></div>
+                            <div class="descricao">
+                                <h2>Puma</h2>
+                                <h3>Camisa Manchester City 23/24</h3>
+                                <h3>Futebol - Masculino</h3>
+                            </div>
+                            <div class="precoestre">
+                                <b>R$ 294,93</b>
+                                <div class="nota">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star "></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagProd">
+                        <div class="produtos">
+                            <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                            </div>
+                            <div class="imgProduto"><img src="./src/imagens/Bola basquete.png" alt="Bola basquete"></div>
+                            <div class="descricao">
+                                <h2>Wilson</h2>
+                                <h3>Bola de Basquete Wilson NBA DRV</h3>
+                                <h3>Basquete</h3>
+                            </div>
+                            <div class="precoestre">
+                                <b>R$ 159,99</b>
+                                <div class="nota">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star "></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="produtos">
+                            <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                            </div>
+                            <div class="imgProduto"><img src="./src/imagens/Short Asics.png" alt="Bermuda Ascis"></div>
+                            <div class="descricao">
+                                <h2>Ascis</h2>
+                                <h3>Bermuda Masculina ASICS Malha</h3>
+                                <h3>Corrida</h3>
+                            </div>
+                            <div class="precoestre">
+                                <b>R$ 47,49</b>
+                                <div class="nota">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star "></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="produtos">
+                            <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                            </div>
+                            <div class="imgProduto"><img src="./src/imagens/Luva goleiro.png" alt="Luva goleiro"></div>
+                            <div class="descricao">
+                                <h2>Nike</h2>
+                                <h3>Luvas de Goleiro Nike GK Match</h3>
+                                <h3>Futebol</h3>
+                            </div>
+                            <div class="precoestre">
+                                <b>R$ 179,99</b>
+                                <div class="nota">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star "></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="produtos">
+                            <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                            </div>
+                            <div class="imgProduto"><img src="./src/imagens/Mochila Nike.png" alt="Mochila Verde Limão">
+                            </div>
+                            <div class="descricao">
+                                <h2>Nikw</h2>
+                                <h3>Mochila Heritage BKPK Verde Limão</h3>
+                                <h3>Acessorios</h3>
+                            </div>
+                            <div class="precoestre">
+                                <b>R$ 279,90</b>
+                                <div class="nota">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star "></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+            <!-- <div class="Ecorpo"> -->
+                <!-- <div class="pagProd">
+                    <div class="produtos">
+                        <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                        </div>
+                        <div class="imgProduto"><img src="./src/imagens/Chinelo Nike.png" alt="Chinelo"></div>
+                        <div class="descricao">
+                            <h2>Adidas</h2>
+                            <h3>Chinelo adidas Adilette Aqua-Slide</h3>
+                            <h3>Unissex</h3>
+                        </div>
+                        <div class="precoestre">
+                            <b>R$ 179,99</b>
+                            <div class="nota">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="produtos">
+                        <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                        </div>
+                        <div class="imgProduto"><img src="./src/imagens/Chuteira-Umbro.png" alt="CHuteira Umbro"></div>
+                        <div class="descricao">
+                            <h2>Umbro</h2>
+                            <h3>Chuteira Society Umbro Class 2.2</h3>
+                            <h3>Júnior</h3>
+                        </div>
+                        <div class="precoestre">
+                            <b>R$ 179,99</b>
+                            <div class="nota">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="produtos">
+                        <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                        </div>
+                        <div class="imgProduto"><img src="./src/imagens/Tenis NB.png" alt="Tenis New Balance"></div>
+                        <div class="descricao">
+                            <h2>New Balance</h2>
+                            <h3>Tênis New Balance 327 Warped</h3>
+                            <h3>Unissex</h3>
+                        </div>
+                        <div class="precoestre">
+                            <b>R$ 529,99</b>
+                            <div class="nota">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="produtos">
+                        <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                        </div>
+                        <div class="imgProduto"><img src="./src/imagens/Conjunto Adidas.png" alt="COnjunto adidas">
+                        </div>
+                        <div class="descricao">
+                            <h2>Adidas</h2>
+                            <h3>Conjunto de Agasalho Masculino Sereno</h3>
+                            <h3>Musculação e Fitness</h3>
+                        </div>
+                        <div class="precoestre">
+                            <b>R$ 351,49</b>
+                            <div class="nota">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+            <!-- </div> -->
+
+
+
+
+
+
+
+            <!-- <div class="Ecorpo"> -->
+                <!-- <div class="pagProd">
+                    <div class="produtos">
+                        <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                        </div>
+                        <div class="imgProduto"><img src="./src/imagens/Tenis Nke CAsu.png" alt="Tenis Nike"></div>
+                        <div class="descricao">
+                            <h2>Nike</h2>
+                            <h3>Ténis Nike Court Vision Lo Masculino</h3>
+                            <h3>Casual</h3>
+                        </div>
+                        <div class="precoestre">
+                            <b>R$ 419,99</b>
+                            <div class="nota">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="produtos">
+                        <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                        </div>
+                        <div class="imgProduto"><img src="./src/imagens/Meia.png" alt="Meias"></div>
+                        <div class="descricao">
+                            <h2>Puma</h2>
+                            <h3>Kit de Meias Sapatilha Esportiva</h3>
+                            <h3>Musculação e Fitness</h3>
+                        </div>
+                        <div class="precoestre">
+                            <b>R$ 28,49</b>
+                            <div class="nota">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="produtos">
+                        <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                        </div>
+                        <div class="imgProduto"><img src="./src/imagens/Camisa Flamengo.png" alt="Camisa Flamengo">
+                        </div>
+                        <div class="descricao">
+                            <h2>Adidas</h2>
+                            <h3>Camisa Masculina Flamengo Manto</h3>
+                            <h3>Futebol</h3>
+                        </div>
+                        <div class="precoestre">
+                            <b>R$ 314,99,00</b>
+                            <div class="nota">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="produtos">
+                        <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                        </div>
+                        <div class="imgProduto"><img src="./src/imagens/Camisa City.png" alt="Camisa City"></div>
+                        <div class="descricao">
+                            <h2>Puma</h2>
+                            <h3>Camisa Manchester City 23/24</h3>
+                            <h3>Futebol - Masculino</h3>
+                        </div>
+                        <div class="precoestre">
+                            <b>R$ 294,93</b>
+                            <div class="nota">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+            <!-- </div> -->
+
+
+
+
+
+
+
+
+            <!-- <div class="Ecorpo"> -->
+                <!-- <div class="pagProd">
+                    <div class="produtos">
+                        <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                        </div>
+                        <div class="imgProduto"><img src="./src/imagens/Bola basquete.png" alt="Bola basquete"></div>
+                        <div class="descricao">
+                            <h2>Wilson</h2>
+                            <h3>Bola de Basquete Wilson NBA DRV</h3>
+                            <h3>Basquete</h3>
+                        </div>
+                        <div class="precoestre">
+                            <b>R$ 159,99</b>
+                            <div class="nota">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="produtos">
+                        <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                        </div>
+                        <div class="imgProduto"><img src="./src/imagens/Short Asics.png" alt="Bermuda Ascis"></div>
+                        <div class="descricao">
+                            <h2>Ascis</h2>
+                            <h3>Bermuda Masculina ASICS Malha</h3>
+                            <h3>Corrida</h3>
+                        </div>
+                        <div class="precoestre">
+                            <b>R$ 47,49</b>
+                            <div class="nota">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="produtos">
+                        <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                        </div>
+                        <div class="imgProduto"><img src="./src/imagens/Luva goleiro.png" alt="Luva goleiro"></div>
+                        <div class="descricao">
+                            <h2>Nike</h2>
+                            <h3>Luvas de Goleiro Nike GK Match</h3>
+                            <h3>Futebol</h3>
+                        </div>
+                        <div class="precoestre">
+                            <b>R$ 179,99</b>
+                            <div class="nota">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="produtos">
+                        <div class="favoritar"><img src="./src/imagens/icone-coração.png" alt=" Favoritar produtos">
+                        </div>
+                        <div class="imgProduto"><img src="./src/imagens/Mochila Nike.png" alt="Mochila Verde Limão">
+                        </div>
+                        <div class="descricao">
+                            <h2>Nikw</h2>
+                            <h3>Mochila Heritage BKPK Verde Limão</h3>
+                            <h3>Acessorios</h3>
+                        </div>
+                        <div class="precoestre">
+                            <b>R$ 279,90</b>
+                            <div class="nota">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            <!-- </div> -->
+
+
+
+
+
+
+
+
+
+
+            <footer>
+                <div class="rodape">
+                    <div class="icones">
+                        <div class="caixaCon">
+                            <div class="caixa-ser">
+                                <div class="servicos">
+                                    <h2>Serviços</h2>
+                                    <p>Teste</p>
+                                    <p>Teste</p>
+                                    <p>Teste</p>
+                                </div>
+                                <div class="servicos">
+                                    <h2>Ajuda</h2>
+                                    <p>Teste</p>
+                                    <p>Teste</p>
+                                    <p>Teste</p>
+                                </div>
+                                <div class="   servicos">
+                                    <h2>Sobre nós</h2>
+                                    <p>Quem somos</p>
+                                    <p>Trabalhe Conosco</p>
+                                    <p>Teste</p>
+                                </div>
+                                <div class="servicos">
+                                    <h2>Siga-nos</h2>
+                                    <p>Instagram</p>
+                                    <p>Facebook</p>
+                                    <p>Twitter</p>
+                                </div>
+                            </div>
+                            <div class="email">
+                                <h3>Contato</h3>
+                                <p>optiplexsports@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="pagamento">
+                            <img src="./src/imagens/imagem-Photoroom 2.png" alt="">
+                            <div class="icon-pag">
+                                <p>FORMAS DE PAGAMENTO</p>
+                                <img src="./src/imagens/Boleto.png" alt="">
+                                <img src="./src/imagens/elo.png" alt="">
+                                <img src="./src/imagens/Visa.png" alt="">
+                                <img src="./src/imagens/Pix.png" alt="">
+                                <img src="./src/imagens/PayPal.png" alt="">
+                                <img src="./src/imagens/MasterCard.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rodape2">
+                    <p>Desenvolvido por TI2023M-2 @copyright</p>
+                </div>
+            </footer>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+.texto{
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+.Ecorpo{
+    width: 98%;
+    margin-bottom: 60px;
+    
+    
+}
+
+.produtos{
+    margin-top: 20px;
+    height: 100%;
+    background-color: #acacacac;
+    border-radius: 15px;
+    border: color none;
+    width: 25%;
+    height: 40%;
+    padding: 10px;
+    margin-left: 90px;
+    border-style: solid;
+}
+.produtos h2{
+    display: flex;
+    align-items: end;
+}
+.favoritar{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.favoritar img{
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    cursor: pointer;
+}
+.imgProduto img{
+    height: 250px;
+    width: 250px;
+    cursor: pointer;
+}
+.imgProduto{
+    display: flex;
+    justify-content: center;
+}
+.descricao{
+    height: 150px;
+    line-height: 40px;
+}
+.descricao h3{
+    font-weight: 350;
+}
+.precoestre{
+    gap: 170px;
+    display: flex
+}
+.checked {
+    color: rgba(255, 238, 0, 0.952);
+}
+
+.barra{
+    background-color: #D9D9D9;
+    margin-top: 150px;
+    width: 1700px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+.barra h1{
+    margin-top: 50px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.Ecorpo2{
+    width: 98%;
+    margin-bottom: 60px;
+    display: flex;
+    
+}
+
+.produtos2{
+    margin-top: 30px;
+    height: 100%;
+    background-color: #acacacac;
+    border-radius: 15px;
+    border: color none;
+    width: 380px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+.produtos2 h2{
+    display: flex;
+    align-items: end;
+}
+.favoritar2{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.favoritar2 img{
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    cursor: pointer;
+}
+.imgProduto2 img{
+    height: 250px;
+    width: 250px;
+    cursor: pointer;
+}
+.imgProduto2{
+    display: flex;
+    justify-content: center;
+}
+.descricao2{
+    height: 150px;
+    line-height: 40px;
+}
+.descricao2 h3{
+    font-weight: 350;
+}
+.precoestre2{
+    gap: 170px;
+    display: flex
+}
+.checked2 {
+    color: rgba(255, 238, 0, 0.952);
+}

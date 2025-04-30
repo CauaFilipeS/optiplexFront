@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optiplex Sports</title>
+    <link rel="shortcut icon" href="./src/imagens/Optiplex Sports.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/login.css">
+    <link rel="stylesheet" href="./src/css/registro.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+    <div id="pagina">
+        <div class="principal corpo">
+            <header>
+                <div class="logo">
+                    <img src="./src/imagens/Optiplex Sports.png" alt="logotipo Optiplex">
+                </div>
+                <div class="topo">
+                    <div class="topo">
+                        <div class="iconesBarra">
+                            <div class="barraLupa">
+                                <img src="./src/imagens/lupa.png" alt="">
+                                <input type="" placeholder="Procure por um produto ou esporte">
+                            </div>
+                            <div class="loginCarrinho">
+                                <a href="./login.html"><img src="./src/imagens/pessoa-icone.png" alt="imagem login"></a>
+                                <a href="./favoritos.html"><img src="./src/imagens/icone-coração.png" alt="imagem favorito"></a>
+                                <a href="./carrinho.html"><img src="./src/imagens/carrinho-icone.png" alt=" imagem carrinho"></a>
+                            </div>
+                        </div>
+                        <div class="menu" id="menu">
+                            <nav>
+                                <ul>
+                                    <a href="./index.html"><li>Home</li></a>
+                                    <a href="./masculino.html"><li>Masculino</li></a>
+                                    <a href="">
+                                        <li>Feminino</li>
+                                    </a>
+                                    <a href="">
+                                        <li>Infantil</li>
+                                    </a>
+                                    <a href="">
+                                        <li>Acessorios</li>
+                                    </a>
+                                    <a href="">
+                                        <li>Equipamentos</li>
+                                    </a>
+                                    <a href="">
+                                        <li>Calçados</li>
+                                    </a>
+                                    <a href="">
+                                        <li>Roupas</li>
+                                    </a>
+                                    <a href="">
+                                        <li>Marcas</li>
+                                    </a>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+            </header>
+            <div class="arrumar2">
+                <div class="entrega">
+                    <img src="./src/imagens/entrega.png" alt="">
+                    <h1>Dados de Entrega</h1>
+                </div>
+                <div class="registro3">
+                    <div class="endereco">
+                        <p>Endereço</p>
+                        <input type="text" placeholder="Digite seu endereço" required>
+                    </div>
+
+                    <div class="cep">
+                        <p>CEP</p>
+                        <input type="number" placeholder="Digite seu CEP" required>
+                    </div>
+
+                    <div class="bairro">
+                        <p>Bairro</p>
+                        <input type="text" placeholder="Digite seu bairro" required>
+                    </div>
+
+                    <div class="complemento">
+                        <p>Complemento</p>
+                        <input type="text" placeholder="Digite seu complemento" required>
+                    </div>
+
+                    <div class="cidade">
+                        <p>Cidade</p>
+                        <input type="text" placeholder="Digite sua cidade" required>
+                    </div>
+
+                    <div class="estado">
+                        <p>Estado</p>
+                        <select name="estado" id="estado" required>
+                            <option value="SP">São Paulo</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="BA">Bahia</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="CE">Ceará</option>
+                            <option value="SC">Santa Catarina</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="politica">
+                    <img src="./src/imagens/termos.png" alt="">
+                    <h1>Termos de uso e dados </h1>
+                </div>
+                <div class="registro4">
+                    <div class="lembre">
+                        <input type="checkbox" id="myCheck" onclick="myFunction()">
+                        <p id="text" style="display:none">Checkbox is CHECKED!</p>
+                        <label for="myCheck">Termos de alguma coisa</label>
+                    </div>
+                    <div class="lembre2">
+                        <input type="checkbox" id="myCheck" onclick="myFunction()">
+                        <p id="text" style="display:none">Checkbox is CHECKED!</p>
+                        <label for="myCheck">Quero receber notificações</label>
+                    </div>
+                    <div class="cadastrar">
+                        <a href="./login.html"><button class="btnCadastrar">Cadastrar</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="arrumar">
+                <div class="dadosPessoais">
+                    <img src="./src/imagens/dados.png" alt="">
+                    <h1>Dados Pessoais</h1>
+                </div>
+                <div class="registro">
+                    <div class="nome">
+                        <p>Nome Completo</p>
+                        <input type="text" placeholder="Digite seu nome completo" required>
+                    </div>
+                    <div class="cpf">
+                        <p>CPF</p>
+                        <input type="number" placeholder="Digite seu CPF" required>
+                    </div>
+                    <div class="data">
+                        <p>Data de Nascimento</p>
+                        <input type="date" placeholder="Digite sua data de nascimento" required>
+                    </div>
+                    <div class="celular">
+                        <p>Telefone Celular</p>
+                        <input type="number" placeholder="Digite seu celular" required>
+                    </div>
+                    <div class="fixo">
+                        <p>Telefone Fixo</p>
+                        <input type="number" placeholder="Digite seu telefone fixo" required>
+                    </div>
+                    <div class="genero">
+                        <p>Genero</p>
+                        <select name="genero" id="genero" required>
+                            <option value="masculino">Masculino</option>
+                            <option value="feminino">Feminino</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="cadeado">
+                    <img src="./src/imagens/cadeado.png" alt="">
+                    <h1>Dados de Acesso ao site</h1>
+                </div>
+                <div class="registro2">
+                    <div class="email">
+                        <p>E-mail:</p>
+                        <input type="email" placeholder="Digite seu e-mail" required>
+                    </div>
+                    <div class="teste">
+                        <div class="senha">
+                            <p>Senha:</p>
+                            <input type="password" placeholder="Digite sua senha" required>
+                        </div>
+                        <div class="confirmarSenha">
+                            <p>Confirmar Senha:</p>
+                            <input type="password" placeholder="Confirme sua senha" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="rodape">
+                    <div class="icones">
+                        <div class="caixaCon">
+                            <div class="caixa-ser">
+                                <div class="servicos">
+                                    <h2>Serviços</h2>
+                                    <p>Teste</p>
+                                    <p>Teste</p>
+                                    <p>Teste</p>
+                                </div>
+                                <div class="servicos">
+                                    <h2>Ajuda</h2>
+                                    <p>Teste</p>
+                                    <p>Teste</p>
+                                    <p>Teste</p>
+                                </div>
+                                <div class="   servicos">
+                                    <h2>Sobre nós</h2>
+                                    <p>Quem somos</p>
+                                    <p>Trabalhe Conosco</p>
+                                    <p>Teste</p>
+                                </div>
+                                <div class="servicos">
+                                    <h2>Siga-nos</h2>
+                                    <p>Instagram</p>
+                                    <p>Facebook</p>
+                                    <p>Twitter</p>
+                                </div>
+                            </div>
+                            <div class="email">
+                                <h3>Contato</h3>
+                                <p>optiplexsports@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="pagamento">
+                            <img src="./src/imagens/imagem-Photoroom 2.png" alt="">
+                            <div class="icon-pag">
+                                <p>FORMAS DE PAGAMENTO</p>
+                                <img src="./src/imagens/Boleto.png" alt="">
+                                <img src="./src/imagens/elo.png" alt="">
+                                <img src="./src/imagens/Visa.png" alt="">
+                                <img src="./src/imagens/Pix.png" alt="">
+                                <img src="./src/imagens/PayPal.png" alt="">
+                                <img src="./src/imagens/MasterCard.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rodape2">
+                    <p>Desenvolvido por TI2023M-2 @copyright</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.5.2.js"
+        integrity="sha256-ThFcNr/v1xKVt5cmolJIauUHvtXFOwwqiTP7IbgP8EU=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./src/js/carrossel.js"></script>
+</body>
+
+</html>
