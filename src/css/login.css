@@ -1,0 +1,86 @@
+.painelCima {
+    margin-top: 50px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.painel {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+
+.painel input[type="text"] {
+    width: 40%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.painel input[type="password"] {
+    width: 40%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.botao{
+
+    height: 100px;
+    width: 98%;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.painel button{
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    width: 30%;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 2%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.lembre{
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+.lembre checkbox{
+    margin-left: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
