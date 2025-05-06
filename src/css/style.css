@@ -39,7 +39,6 @@ header{
     width: 100%;
     height: auto;
 }
- 
 .iconesBarra{
     width: 90%;
     display: flex;
@@ -63,12 +62,12 @@ header{
     align-items: center;
     border-radius: 27px;
 }
- 
+
 .barraLupa img{
     width: 30px;
     height: 30px;
 }
- 
+
 .loginCarrinho {
     width: 20%;
     text-align: center;
@@ -81,6 +80,20 @@ header{
     background: transparent;
     width: 80%;
     border: none;
+}
+
+.btn-menu{
+    background-color: #7e7e7e; /*cor do fundo */
+    color: #ffffff; /*cor da letra*/
+    width: 120px; /*largura*/
+    height: 35px;
+    font-size: 18px; /*tamanho da fonte */
+    font-weight: bold; /* negrito ou espessura da fonte*/
+    border: none; /*borda */
+    border-radius: 12px; /*borda arredondada */
+    cursor: pointer; /*adiciona o cursor*/
+    box-shadow: 2px 2px 2px #817e7e; /*sombra*/
+    margin-right: 5vh;
 }
   
 
